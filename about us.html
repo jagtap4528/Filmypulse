@@ -8,21 +8,22 @@
 </head>
 <body>
 
-<header class="dark-theme">
+  <!--Nav Bar-->
+  <header class="dark-theme">
         <div class="container">
             <div class="logo">
                 <img src="logo.png" alt="IMDb Clone Logo">
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Watchlist</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="favorite.html">Watchlist</a></li>
                     <li><a href="#">TV Shows</a></li>
-                    <li><a href="#">Celebrities</a></li>
                 </ul>
             </nav>
             <div class="search-bar">
-                <input type="text" placeholder="Search..." class="search-bar" id="Input">
-                <button type="submit">Search</button>
+                <input type="text" placeholder="Search..." class="search-bar" id="Input" onclick="showmovie()" >
+                <button type="submit" onclick="showmovie()" >Search</button>
             </div>
         </div>
     </header>
@@ -67,9 +68,9 @@
     <div class="footer-container">
         <div class="footer-nav">
             <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">FAQ</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              
             </ul>
         </div>
         <div class="social-icons">
